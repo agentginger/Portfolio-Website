@@ -1,0 +1,132 @@
+* {
+  font-family: Roboto, arial, Helvetica;
+}
+
+html,
+body {
+  margin: 0;
+}
+
+:root {
+  --green:#A2D729;
+  --Blue: #3C91E6;
+  --RaisinBlack: #342E37;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--RaisinBlack);
+  width: 100%;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: var(--RaisinBlack);
+  background-color: var(--green);
+  padding: 10px 15px 10px 100px;
+}
+
+nav {
+  color: var(--green);
+  margin-right: 50px;
+}
+
+nav a {
+  font-size: 20px;
+  margin-right: 10px;
+
+}
+a:visited {
+  color: var(--green);
+}
+
+figure {
+  margin: 0;
+
+}
+figcaption {
+  margin-left: 30px;
+  font-size: 12px;
+}
+
+.banner {
+  width: 100%;
+  height: 30vh;
+  object-fit:cover;
+}
+
+section {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center; 
+  
+}
+
+h2 {
+  font-size: 3rem;
+  color: var(--Blue);
+  padding: 0 40px 20px 40px;
+  border-right: 2px solid var(--Blue);
+}
+
+.about-me-content {
+  max-width: 900px;
+  color: var(--Blue);
+  font-size: 1.1rem;
+  margin-left: 30px;
+}
+
+.work-main-img {
+  height: 360px;
+  width: 640px;
+}
+
+.grid-container {
+  display: grid;
+  
+}
+
+.contact-info-container {
+  display: flex;
+}
+
+.contact-info-container div, a {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+
+/*
+.left-side {
+  color: var(--Blue);
+  font-weight: bold;
+  font-size: 4rem;
+  border: none;
+  padding-right: 15px;
+  border-right: 2px solid var(--Blue);
+  width: 250px;
+  margin-top: 50px;
+  text-align: right;
+}
+
+.right-side {
+  color: var(--Blue);
+  margin-left: 20px;
+  
+  font-size: 1.5em;
+}
+
+.content-container {
+  display: flex;
+}
+
+.content-main {
+  height: 200px;
+  width: 700px;
+  object-fit: cover;
+  object-position: center;
+}
+*/
