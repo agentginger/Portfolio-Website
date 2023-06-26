@@ -133,4 +133,48 @@ figcaption {
   background-color: var(--RaisinBlack);
   padding: 10px 25px;
   border-radius: 10px;
+} 
+
+@media screen and (max-width: 976px) {
+  .grid-container {
+    display: flex;
+    flex-direction: column;
+
+  } 
+ 
+  header {
+    display: flex;
+    flex-direction: column;
+    
+  }
+
+  h1 {
+    padding: 10px 50px 10px 50px;
+    text-align: center;
+  }
+
+  nav {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .about-me-content {
+    text-align: center;
+  }
+
+  .work-img {
+    width: 100%;
+  }
+
+  .contact-me-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .contact-content {
+    margin-top: 5px;
+  }
+
 }
+
