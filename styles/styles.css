@@ -191,7 +191,7 @@ figcaption {
 .progress {
   animation: scaleProgress auto linear;
   animation-timeline: scroll(root);
-  background: linear-gradient(to right, var(--green) ,var(--Blue));
+  background: linear-gradient(to right, var(--Blue) ,var(--green));
   height: 0.8rem;
   width: 100%;
   position: fixed;
