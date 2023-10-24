@@ -188,10 +188,31 @@ figcaption {
   }
 }
 
+@keyframes colorChange {
+  0% {
+    background-color: var(--RaisinBlack);
+  }
+
+  35% {
+    background-color: var(--Blue);
+  }
+  55% {
+    background-color: var(--Blue);
+  }
+
+  85% {
+    background-color: var(--green);
+  }
+  
+  100% {
+    background-color: var(--green);
+  }
+}
+
 .progress {
-  animation: scaleProgress auto linear;
+  animation: scaleProgress auto linear, colorChange auto ease;
   animation-timeline: scroll(root);
-  background: linear-gradient(to right, var(--Blue) ,var(--green));
+  /*background: linear-gradient(to right, var(--Blue) ,var(--green));*/
   height: 0.8rem;
   width: 100%;
   position: fixed;
