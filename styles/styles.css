@@ -13,6 +13,8 @@ body {
   --RaisinBlack: #342E37;
 }
 
+
+
 header {
   display: flex;
   align-items: center;
@@ -175,5 +177,27 @@ figcaption {
     margin-top: 5px;
   }
 
+}
+
+@keyframes scaleProgress {
+  0% {
+    transform: scaleX(0);
+  }
+  100% {
+    transform: scaleX(1);
+  }
+}
+
+.progress {
+  animation: scaleProgress auto linear;
+  animation-timeline: scroll(root);
+  background-color: var(--Blue) ;
+  height: 1rem;
+  width: 100%;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 101;
+  transform-origin: 0 50%;
 }
 
